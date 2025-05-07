@@ -1,0 +1,39 @@
+# 忽略敏感信息和环境变量
+.env
+*.env
+.env.*
+
+# 忽略数据文件
+data/
+data_new/
+*.csv
+
+# 忽略日志文件
+*.log
+logs/
+
+# 忽略缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 忽略虚拟环境
+venv/
+env/
+ENV/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略Telegram测试文件
+telegram_test*
