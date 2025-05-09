@@ -1,19 +1,3 @@
-# # 添加所有文件到Git
-git add .
-
-# 提交更改
-git commit -m "初始提交：加密货币轧空监控机器人"
-
-# 添加远程仓库
-git remote add origin https://github.com/your-github-username/your-repo-name.git
-
-# 推送到GitHub
-git push -u origin master
-2. 诱导散户在永续合约上做空
-3. 空头增多导致合约价格低于现货，资金费率变负
-4. 庄家持多头赚取费率和价差
-5. 价格推至阻力位或清算区，空头被迫平仓
-6. 庄家借机退出，甚至可反手做空
 
 ## 核心监控指标
 
